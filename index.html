@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PhongNH Photography</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Favicon.svg">
     <script src="https://kit.fontawesome.com/ce8fb59098.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,21 +14,54 @@
     
   </head>
   <body>
-  <div class="container-sm container-md container-lg container-xl container-xxl">
-    <div class="d-flex justify-content-center">
-      <section class="contact-info-area">
-        <h1 class="fw-bold text-start lh-lg" style="color: #170056; margin: 0 auto">Contact Info</h1>
-          <ul class="lh-lg" style="width: 100%; margin: 0; padding: 0;">
-            <li class="contact-info"><i class="fas fa-map-marker-alt" style="padding:0px 2.5px;"></i> Address: Le Quy Don St., Bien Hoa, Dong Nai</li>
-            <li class="contact-info"><i class="fas fa-phone-alt"></i> Phone: +(84)834 756 222</li>
-            <li class="contact-info"><i class="fas fa-envelope"></i> Email: andyhoaiphong2003@gmail.com</li>
-            <li class="contact-info"><i class="fas fa-globe"></i> Website: http://phongnhphotography.com</li>
-          </ul>
-        </section>
-        <section class="contact-form-area"></section>
+  <div class="container-sm container-md container-lg container-xl container-xxl primary-font">
+
+
+
+
+
+<!--CONTACT AREA-->
+    <div class="contact-area d-flex justify-content-center">
+      <div class="d-flex justify-content-start">
+        <section class="contact-info-area">
+          <h1 class="fw-bold text-center lh-lg contact-heading">Contact Info</h1>
+            <ul class="lh-lg" style="width: 100%; margin: 0; padding: 0;">
+              <li class="contact-font"><i class="fas fa-map-marker-alt" style="padding:0px 2.5px;"></i> Address: Le Quy Don St., Bien Hoa, Dong Nai</li>
+              <li class="contact-font"><i class="fas fa-phone-alt"></i> Phone: +(84)834 756 222</li>
+              <li class="contact-font"><i class="fas fa-envelope"></i> Email: andyhoaiphong2003@gmail.com</li>
+              <li class="contact-font"><i class="fas fa-globe"></i> Website: http://phongnhphotography.com</li>
+            </ul>
+          </section>
+        </div>
+      <div class="d-flex justify-content-end">
+        <section class="contact-form-area">
+          <h1 class="fw-bold text-center lh-lg contact-heading">Contact Form</h1>
+            <form class="contact-font lh-lg mb-3">
+              <div class="row"> 
+                <div class="col"> 
+                  <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                  <input class="form-control" type="text" placeholder="John Smith">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="col">
+                  <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                  <input class="form-control" type="text">
+                  <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                  <input class="form-control" type="text" placeholder="+(XX)XXX XXX XXX">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
     </div>
-  </div>
-    <section id=my-contact class="footer-area">
+<!--FOOTER-->
+    <section id=my-contact class="footer-area primary-font">
       <img class="logo rounded mx-auto d-block" src="PHONGNH.svg"> 
         <ul class="d-flex justify-content-center" style="padding-left: 0px; margin-bottom: 0px;">
           <li><a class="link-contact facebook" href="http://facebook.com/fng.106" target="_blank"><i class="fab fa-facebook"></a></i></li>
