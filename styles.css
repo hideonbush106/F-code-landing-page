@@ -4,33 +4,6 @@
   margin: 0;
 }
 
-.submit-button {
-  position: relative;
-  color: #FFF;
-  text-decoration: none;
-}
-
-.submit-button:hover {
-  color: #FFF;
-}
-
-.submit-button::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 70px;
-  height: 1.5px;
-  top: 37px;
-  left: 14px;
-  background-color: #FFF;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
-.submit-button:hover::before {
-  transform: scaleX(1);
-}
-
 .combine-in-font {
   display: inline-block;
 }

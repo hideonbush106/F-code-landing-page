@@ -40,15 +40,15 @@
               <div class="row"> 
                 <div class="col"> 
                   <label for="exampleFormControlInput1" class="form-label">Full Name<strong style="color: red;">*</strong></label>
-                  <input class="form-control" type="text" placeholder="Rick Astley">
+                  <input class="form-control" type="text" placeholder="Rick Astley" required>
                   <label for="exampleFormControlInput1" class="form-label">Email address<strong style="color: red;">*</strong></label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 </div>
                 <div class="col">
                   <label for="exampleFormControlInput1" class="form-label">Subject<strong style="color: red;">*</strong></label>
-                  <input class="form-control" type="text">
+                  <input class="form-control" type="text" required>
                   <label for="exampleFormControlInput1" class="form-label">Phone Number<strong style="color: red;">*</strong></label>
-                  <input class="form-control" type="text" placeholder="+(01)234 756 890">
+                  <input class="form-control" type="text" placeholder="+(01)234 756 890" required pattern="[0-9]{10,16}">
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
