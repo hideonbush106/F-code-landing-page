@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+.bolded {font-weight: bold;}
+
+.navbar-font {
+  text-decoration: none !important; 
+  color: black !important;
+}
+
 .combine-in-font {
   display: inline-block;
 }
@@ -17,11 +24,11 @@
 }
 
 .contact-info-area {
-  padding-right: 75px;
+  margin-right: 100px;
 }
 
 .contact-form-area {
-  padding-left: 75px;
+  margin-left: 100px;
 }
 
 .contact-heading {
@@ -44,7 +51,8 @@
 }
 
 img.logo {
-  height: 170px;
+  height: 9%;
+  width: 9%;
   margin: 0 auto;
 }
 
