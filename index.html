@@ -19,38 +19,34 @@
   <!--NAVBAR-->
   <div class="d-flex justify-content-around" style="display: inline-block; background-image: linear-gradient(to right, #99FEFF, #94B3FD);">
     <nav class="navbar navbar-light">
-      <div>
+      <div class="container">
         <a class="navbar-brand fs-1 fw-bold" href="#" style="font-family: 'Oxygen', san-serif; color: #170056;">
-          <img src="Favicon.svg" alt="" width="90" height="90"> PhongNH
+          <img src="Favicon.svg" width="90" height="90"> PhongNH
         </a>
       </div>
         <div>
         <ul class="nav fs-5 fw-bold">
-          <li class="nav-item"><a class="nav-link navbar-font" href="#">HOME</a>
+          <li class="nav-item"><a class="nav-link navbar-font underline" href="#">HOME</a>
           </li>
-          <li class="nav-item"><a class="nav-link navbar-font" href="#">ABOUT</a>
+          <li class="nav-item"><a class="nav-link navbar-font underline" href="#">ABOUT</a>
           </li>
-          <li class="nav-item"><a class="nav-link navbar-font" href="#">SERVICE</a>
+          <li class="nav-item"><a class="nav-link navbar-font underline" href="#">SERVICE</a>
           </li>
-          <li class="nav-item"><a class="nav-link navbar-font" href="#">PORTFOLIO</a>
+          <li class="nav-item"><a class="nav-link navbar-font underline" href="#">PORTFOLIO</a>
           </li>
-          <li class="nav-item"><a class="nav-link navbar-font" href="#">TESTIMONIAL</a>
+          <li class="nav-item"><a class="nav-link navbar-font underline" href="#">TESTIMONIAL</a>
           </li>
-          <li class="nav-item"><a class="nav-link navbar-font" href="#">BLOG</a>
+          <li class="nav-item"><a class="nav-link navbar-font underline" href="#">BLOG</a>
           </li>
-          <li class="nav-item"><a class="nav-link navbar-font" href="#contact">CONTACT</a>
+          <li class="nav-item"><a class="nav-link navbar-font underline" href="#contact">CONTACT</a>
           </li>
         </ul>
         </div>
-
-        
+        <button type="button" class="btn btn-primary btn-lg fw-bold fs-5">LOGIN</button>
       </div>
-
     </nav>
-  </div>
+  
 
-
-  </div>
 <!--CONTACT AREA-->
     <div class="contact-area d-flex justify-content-center">
       <div class="container d-flex justify-content-center">
@@ -77,13 +73,13 @@
                 </div>
                 <div class="col">
                   <label for="exampleFormControlInput1" class="form-label">Subject<strong style="color: red;">*</strong></label>
-                  <input class="form-control" type="text" required>
+                  <input class="form-control" type="text" required placeholder="Your subject">
                   <label for="exampleFormControlInput1" class="form-label">Phone Number<strong style="color: red;">*</strong></label>
                   <input class="form-control" type="tel" placeholder="+(01)234 567 890" required pattern="[0-9]{4}[0-9]{3}[0-9]{3}">
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message..."></textarea>
                 </div>
               </div>
               <button type="button" class="submit-button btn btn-outline-primary btn-lg">Submit</button>
@@ -92,6 +88,7 @@
         </div>
       </div>
     </div>
+
 <!--FOOTER-->
     <footer id=my-contact class="footer-area primary-font text-center text-white">
       <img class="logo rounded mx-auto d-block img-fluid" src="PHONGNH.svg"> 
