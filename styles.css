@@ -24,7 +24,7 @@
   left: 25%;
   background-color: #170056;
   transform: scaleX(0);
-  transition: transform 0.3s ease;
+  transition: transform 0.4s ease;
 }
 
 .underline:hover::before {
