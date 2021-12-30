@@ -4,8 +4,6 @@
   margin: 0;
 }
 
-.bolded {font-weight: bold;}
-
 .navbar-font {
   text-decoration: none !important; 
   color: black !important;
@@ -16,16 +14,15 @@
 }
 
 .primary-font {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contact-area {
   display:inline-block;
 }
 
-
 .contact-heading {
-  color: #170056; margin: 0 auto;
+  color: #170056; 
   font-size: 250%;
 }
 
@@ -46,7 +43,6 @@
 img.logo {
   height: 9%;
   width: 9%;
-  margin: 0 auto;
 }
 
 .social-connect {
