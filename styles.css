@@ -1,5 +1,7 @@
 
+.button-space {
 
+}
 
 #navbarSupportedContent ul li {
   padding-inline: 0.5rem;
@@ -21,9 +23,6 @@
   color: rgb(70, 70, 70);
 }
 
-.contact-area {
-  display:inline-block;
-}
 
 .contact-heading {
   color: #170056; 
