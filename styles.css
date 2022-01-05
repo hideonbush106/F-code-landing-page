@@ -5,7 +5,22 @@
 
 #navbar-menu .navbar-hover {
   color: #170056;
-  transition: .3s ease;
+  transition: .3s linear;
+}
+
+.bar {
+  background-color: #170056;
+  height: 2px;
+  width: 100px;
+  margin:0 auto;
+}
+
+.move-effect {
+  transition: .3s linear;
+}
+
+.move-effect:hover {
+  padding-left: 10px;
 }
 
 .box-for-img {
@@ -17,12 +32,43 @@
   width: 350px;
   height:350px;
   border: 0.5px;
+  background-color: #F9F9F9;
+  padding: 25px;
   border-style: solid;
   border-color: rgb(217, 217, 217);
+  box-shadow: 2px 2px 2px rgb(217, 217, 217);
 }
 
-.box-for-content:hover {
-  box-shadow: 5px 5px 5px rgb(217, 217, 217);
+.blog-date {
+  background-color: #170056;
+  height: 75px;
+  width: 60px;
+  border-radius: 5px;
+  text-align: center;
+  transition: .3s linear;
+  align-items: center;
+  color:#FFF;
+  position: absolute;
+  display: flex;
+  margin: 20px;
+}
+
+.blog-meta {
+  display: inline-block;
+} 
+
+.meta-align-left {
+  padding-left: 20px;
+}
+
+.meta-align-right {
+  padding-right: 12px;
+}
+
+.blog-date:hover {
+  color: #170056;
+  background-color: #FFF;
+  font-style: bold;
 }
 
 .img-border {border-radius: 15px 15px 0px 0px}
@@ -34,7 +80,7 @@
   color: rgb(70, 70, 70);
 }
 
-.contact-heading {
+.heading {
   color: #170056; 
   font-size: 250%;
 }
@@ -68,7 +114,7 @@ img.logo {
 
 .link-contact {
   color: #FFFFFF;
-  transition: .3s ease;
+  transition: .3s linear;
 }
 
 #footer .facebook:hover {color: #1778F2;}
