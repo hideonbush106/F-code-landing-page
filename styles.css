@@ -6,16 +6,28 @@
 #navbar-menu .navbar-hover {
   color: #170056;
   transition: .3s ease;
-
 }
 
-#navbar-menu .navbar-hover:hover {
-  color: #FFF;
+.box-for-img {
+  width: 350px;
+  margin: 15px; 
 }
 
-.combine-in-font {
-  display: inline-block;
+.box-for-content {
+  width: 350px;
+  height:350px;
+  border: 0.5px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
 }
+
+.box-for-content:hover {
+  box-shadow: 5px 5px 5px rgb(217, 217, 217);
+}
+
+.img-border {border-radius: 15px 15px 0px 0px}
+
+#navbar-menu .navbar-hover:hover {color: #FFF}
 
 .primary-font {
   font-family: 'Montserrat', sans-serif;
