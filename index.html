@@ -25,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul id=navbar-menu class="navbar-nav me-auto mb-2 mb-md-0 fs-6 fw-bold">
+          <ul id=navbar-menu class="navbar-nav mx-auto mb-2 mb-md-0 fs-6 fw-bold">
             <li class="nav-item"><a class="nav-link navbar-hover" href="#">HOME</a></li>
             <li class="nav-item"><a class="nav-link navbar-hover" href="#">ABOUT</a></li>
             <li class="nav-item"><a class="nav-link navbar-hover" href="#">SERVICE</a></li>
@@ -42,31 +42,85 @@
 </header>
 <body>
   <!--TESTIMONIAL-->
-  <div id=testimonial style="padding-top: 100px; padding-bottom: 80px; background-color: #F9F9F9;">
+  <div id=testimonial style="padding-top: 150px;">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <img src="Photo/server-2160321.jpg" style="height: 550px; width: 100%; filter: brightness(50%);">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+    <div class="carousel-outer">
+      <div class="carousel-item active">
+          <div class="carousel-caption">
+            <div class="testt"></div>
+            <h3 class="fw-bold">Jonny Sins</h3>
+            <h6 class="fw-lighter" style="color: #9e9e9e">UI/UX Designer</h6>
+            <p>Lorem ipsum, dolor sit amet. Possimus, obcaecati. Fugiat, nam tenetur! Ipsam fugiat totam consequuntur praesentium nihil blanditiis, ullam odit! Voluptatem, beatae. Eligendi eos facere quo assumenda consequatur?</p>
+          </div>
+        </div>
+      <div class="carousel-item">
+      <div class="carousel-caption">
+        <div class="testt"></div>
+        <h3 class="fw-bold">Eimi Fukada</h3>
+        <h6 class="fw-lighter" style="color: #9e9e9e">Business Analyst</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse dignissimos voluptatem assumenda animi doloribus pariatur explicabo sunt ea quibusdam, quis at. Similique fugiat aut ratione at?</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="testt"></div>
+          <h3 class="fw-bold">Mia Khalifa</h3>
+          <h6 class="fw-lighter" style="color: #9e9e9e;">Full Stack Developer</h6>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae dolor soluta qui illum velit dolorem veritatis nesciunt, accusantium laborum eaque ab sapiente ducimus reiciendis in.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption">
+          <div class="testt"></div>
+          <h3 class="fw-bold">Melody Marks</h3>
+          <h6 class="fw-lighter" style="color: #9e9e9e;">Graphic Designer</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse assumenda animi doloribus pariatur explicabo sunt ea quibusdam, quis at. Similique fugiat aut ratione at?</p>
+        </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+  <div style="padding-bottom: 80px; padding-top: 40px; background-color: #F9F9F9;">
     <div class="text-center">
-      <h1 class="fw-bold heading lh-lg">Trusted by our GREAT clients</h1>
+      <h1 class="fw-bold heading lh-lg">Our GREAT clients</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     <div class="bar"></div>
     <ul class="d-flex justify-content-center" style="list-style-type:none; margin-top: 50px; padding-left: 0">
-      <li class="d-flex justify-content-center"><img class="img-fluid brand-resize" src="Brands/google-2015.svg"></li>
-      <li class="d-flex justify-content-center"><img class="img-fluid brand-resize" src="Brands/oracle-6.svg"></li>
-      <li class="d-flex justify-content-center"><img class="img-fluid brand-resize" src="Brands/coursera.svg"></li>
-      <li class="d-flex justify-content-center"><img class="img-fluid brand-resize" src="Brands/codecademy.svg"></li>
+      <li class="d-flex justify-content-center"><img class="brand-resize" src="Brands/google-2015.svg"></li>
+      <li class="d-flex justify-content-center"><img class="brand-resize" src="Brands/oracle-6.svg"></li>
+      <li class="d-flex justify-content-center"><img class="brand-resize" src="Brands/coursera.svg"></li>
+      <li class="d-flex justify-content-center"><img class="brand-resize" src="Brands/codecademy.svg"></li>
     </ul>
   </div>
+
   <!--BLOG-->
-  <div id=blog style="padding-top: 100px; padding-bottom: 80px;">
+  <div id=blog style="padding-top: 100px; padding-bottom: 100px;">
     <div class="text-center">
     <h1 class="fw-bold heading lh-lg">Our Blogs</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
     <div class="bar"></div>
     <div class="container-fluid d-flex justify-content-center">
-      <div class="row blog-box">
+      <div class="row">
       <!--BLOG BOX 1-->
-        <div class="col-md">
-            <div class="box">
+        <div class="col-md blog-box-hover">
+            <div class="blog-box">
               <div class="box blog-date fs-5 fw-bold">June 10</div>
               <img class="img-fluid img-border" src="Photo/iso-republic-computer-ram-chip.jpg" alt="Laptop RAM">
             <div class="box-for-content">
@@ -84,8 +138,8 @@
             </div>
         </div> 
         <!--BLOG BOX 2-->
-        <div class="col-md">
-          <div class="box">
+        <div class="col-md blog-box-hover">
+          <div class="blog-box">
             <div class="box blog-date fs-5 fw-bold">Jan. 26</div>
               <img class="img-fluid img-border" src="Photo/iso-republic-apple-watch-laptop-sd-card.jpg" alt="Apple watch">
           <div class="box-for-content">
@@ -103,8 +157,8 @@
           </div>
         </div>
         <!--BLOG BOX 3-->
-        <div class="col-md">
-          <div class="box">
+        <div class="col-md blog-box-hover">
+          <div class="blog-box">
             <div class="box blog-date fs-5 fw-bold">Dec. 17</div>
               <img class="img-fluid img-border" src="Photo/iso-republic-vintage-film-slr-camera.jpg" alt="Camera">
             <div class="box-for-content">
@@ -127,7 +181,7 @@
   <!--MAP-->
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.605334520019!2d106.81004639999999!3d10.8414846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752731176b07b1%3A0xb752b24b379bae5e!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBGUFQgVFAuIEhDTQ!5e0!3m2!1svi!2s!4v1641226550579!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <!--CONTACT-->
-    <div id=contact class="contact-area" style="padding-top: 100px; padding-bottom: 80px; background-color: #F9F9F9;">
+    <div id=contact class="contact-area" style="padding-top: 100px; padding-bottom: 80px">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg">
@@ -180,5 +234,4 @@
       <p style="font-size: 75%; text-align: center; margin-bottom: 0px;"><b>© 2022 PHONGNH - ALL RIGHTS RESERVED</b></p>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
 </html> 

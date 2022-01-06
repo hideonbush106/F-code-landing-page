@@ -3,6 +3,11 @@
   padding-inline: 0.5rem;
 }
 
+.testt {
+  width:150px; height: 150px; background-color: aquamarine; border-radius: 100px;
+  margin: 0 auto 25px;
+}
+
 #navbar-menu .navbar-hover {
   color: #170056;
   transition: .3s linear;
@@ -15,7 +20,7 @@
 
 .bar {
   background-color: #464646;
-  height: 1.5px;
+  height: 2px;
   width: 100px;
   margin:0 auto;
 }
@@ -28,7 +33,7 @@
   padding-left: 10px;
 }
 
-.box {
+.blog-box {
   width: 350px;
   margin: 20px;
 }
@@ -70,7 +75,7 @@
   padding-right: 12px;
 }
 
-.blog-date:hover {
+.blog-box-hover:hover .blog-date{
   color: #170056;
   background-color: #FFF;
   font-style: bold;
