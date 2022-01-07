@@ -15,6 +15,12 @@
   transition: .3s linear;
 }
 
+.stat-spacing {
+  padding-inline: 110px !important;
+  padding-bottom: 50px;
+
+}
+
 .brand-resize {
   width: 75%;
   height: 75%;
