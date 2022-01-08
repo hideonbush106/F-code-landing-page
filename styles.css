@@ -23,7 +23,8 @@
   width: 20rem !important;
   height: 17rem !important;
   box-shadow: 2px 2px 2px #d9d9d9;
-
+  padding-left: 8px !important;
+  padding-right: 8px !important;
 }
 
 .client-avt {
