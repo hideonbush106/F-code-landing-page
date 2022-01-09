@@ -14,7 +14,7 @@
   position: absolute;
   object-fit: cover;
   z-index: 0;
-  filter: brightness(15%);
+  filter: brightness(17%);
 }
 
 /* Just styling the content of the div, the *magic* in the previous rules */
@@ -22,7 +22,7 @@
   z-index: 1;
   position: relative;
   text-align: center;
-  color: #FFF;
+  color: #EEEEEE;
 }
 
 .icon-round {
