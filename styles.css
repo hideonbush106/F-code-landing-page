@@ -2,6 +2,29 @@
   padding-inline: 0.5rem;
 }
 
+.video-container {
+  height: 46.67rem;
+  width: 100%;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(15%);
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #FFF;
+}
+
 .icon-round {
   height: 5rem;
   width: 5rem;
@@ -18,11 +41,16 @@
 .service-box {
   border: solid 0.5px #393e4642; 
   background-color: #EEEEEE;
-  margin-inline: 2rem !important;
+  margin-inline: 1rem !important;
   margin-bottom: 4rem;
   width: 20rem !important;
   height: 17rem !important;
-  box-shadow: 2px 2px 2px #d9d9d9;
+  box-shadow:0 1px 2px rgba(0,0,0,0.07), 
+             0 2px 4px rgba(0,0,0,0.07), 
+             0 4px 8px rgba(0,0,0,0.07), 
+             0 8px 16px rgba(0,0,0,0.07),
+             0 16px 32px rgba(0,0,0,0.07), 
+             0 32px 64px rgba(0,0,0,0.07);
   padding-left: 8px !important;
   padding-right: 8px !important;
 }
@@ -34,7 +62,6 @@
   border-color: #00ADB5;
   margin: 0 auto 1.6rem;
 }
-
 
 #navbar-menu .navbar-hover {
   color: #170056;
@@ -68,17 +95,22 @@
 }
 
 .blog-box {
-  width: 23.3rem;
+  width: 22rem;
   margin: 1.3rem;
 }
 
 .box-for-content {
-  width: 23.3rem;
+  width: 22rem;
   height:fit-content;
   border: solid 0.5px #d9d9d9; 
   background-color: #EEEEEE;
   padding: 25px;
-  box-shadow: 2px 2px 2px #d9d9d9;
+  box-shadow:0 1px 2px rgba(0,0,0,0.07), 
+             0 2px 4px rgba(0,0,0,0.07), 
+             0 4px 8px rgba(0,0,0,0.07), 
+             0 8px 16px rgba(0,0,0,0.07),
+             0 16px 32px rgba(0,0,0,0.07), 
+             0 32px 64px rgba(0,0,0,0.07);
 }
 
 .blog-date {
@@ -123,13 +155,12 @@
 }
 
 .heading {
-  color: #170056; 
-  font-size: 250%;
+  color: #170056;
 }
 
 .contact-font {
   font-family: 'Oxygen', sans-serif;
-  font-size: 20px;
+
   list-style-type:none;
 }
 
