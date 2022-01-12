@@ -6,16 +6,34 @@
   transition: .3s linear;
 }
 
-.btn.btn-outline-dark:hover {
+.btn.btn-primary {
+  background-image: linear-gradient(120deg, #00c6ff, #0072ff);
+  border: solid 1px #FFF;
   color: #FFF;
-  background-image: linear-gradient(120deg, #000428, #004e92);
   box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
               0 2px 2px rgba(0,0,0,0.11), 
               0 4px 4px rgba(0,0,0,0.11), 
               0 6px 8px rgba(0,0,0,0.11),
               0 8px 16px rgba(0,0,0,0.11);
-  border: solid 1px #FFF;
+  transition: .3s linear;
 }
+
+.btn.btn-primary:hover {
+  
+  color: #FFF;
+  border: solid 1px #000;
+}
+
+  .btn.btn-outline-dark:hover {
+    color: #FFF;
+    background-image: linear-gradient(120deg, #232526, #414345);
+    border: solid 1px #FFF;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
+  }
 
 .video-container {
   height: 46.67rem;
