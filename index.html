@@ -7,6 +7,7 @@
     <title>SongFU</title>
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="icon" href="icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/ce8fb59098.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,15 +77,150 @@
       </div>
     </div>
   </div>
-  <!--PORTFOLIO-->
-  <div id=portfolio style="padding-top: 100px;">
+  <!--PORTFOLIO Note: credit goes to https://youtu.be/wivAz2OR1E4 -->
+  <div style="padding-top: 100px;">
   <div class="text-center">
     <h1 class="fw-bold heading lh-lg">Portfolio</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </div>
     <div class="bar"></div>
-    <h1 class="text-center">COMING SOON...</h1>
+    <div id="portfolio" class="text-center paddsection">
+      <div class="section-title text-center"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="portfolio-list">
+          <ul class="nav list-unstyled" id="portfolio-flters">
+            <li class="filter filter-active fs-4 hover-underline" data-filter=".all">all</li>
+            <li class="filter fs-4 hover-underline" data-filter=".cats">web design</li>
+            <li class="filter fs-4 hover-underline" data-filter=".dogs">WP design</li>
+            <li class="filter fs-4 hover-underline" data-filter=".zebras">marketing</li>
+            <li class="filter fs-4 hover-underline" data-filter=".lions">development</li>
+          </ul>
+        </div>
+        <div class="portfolio-container">
+          <div class="col-md-4 portfolio-thumbnail all cats">
+            <a class="popup-img" href="images/1.jpg">
+              <img src="Photo/folio/1.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all cats">
+            <a class="popup-img" href="images/2.jpg">
+              <img src="Photo/folio/2.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all cats">
+            <a class="popup-img" href="Photo/folio/3.jpg">
+              <img src="Photo/folio/3.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all cats">
+            <a class="popup-img" href="Photo/folio/4.jpg">
+              <img src="Photo/folio/4.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all dogs">
+            <a class="popup-img" href="Photo/folio/5.jpg">
+              <img src="Photo/folio/5.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all dogs">
+            <a class="popup-img" href="Photo/folio/6.jpg">
+              <img src="Photo/folio/6.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all dogs">
+            <a class="popup-img" href="Photo/folio/7.jpg">
+              <img src="Photo/folio/7.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all dogs">
+            <a class="popup-img" href="Photo/folio/8.jpg">
+              <img src="Photo/folio/8.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all dogs">
+            <a class="popup-img" href="Photo/folio/9.jpg">
+              <img src="Photo/folio/9.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all lions">
+            <a class="popup-img" href="Photo/folio/10.jpg">
+              <img src="Photo/folio/10.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all lions">
+            <a class="popup-img" href="Photo/folio/11.jpg">
+              <img src="Photo/folio/11.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all lions">
+            <a class="popup-img" href="Photo/folio/12.jpg">
+              <img src="Photo/folio/12.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all lions">
+            <a class="popup-img" href="Photo/folio/13.jpg">
+              <img src="Photo/folio/13.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all zebras">
+            <a class="popup-img" href="Photo/folio/14.jpg">
+              <img src="Photo/folio/14.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all zebras">
+            <a class="popup-img" href="Photo/folio/15.jpg">
+              <img src="Photo/folio/15.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all zebras">
+            <a class="popup-img" href="Photo/folio/16.jpg">
+              <img src="Photo/folio/16.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all zebras">
+            <a class="popup-img" href="Photo/folio/17.jpg">
+              <img src="Photo/folio/17.jpg" alt="img">
+            </a>
+          </div>
+          <div class="col-md-4 portfolio-thumbnail all zebras">
+            <a class="popup-img" href="Photo/folio/18.jpg">
+              <img src="Photo/folio/18.jpg" alt="img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+<!-- End section portfolio -->
+<!-- JavaScript Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  
+<!-- Template Main Javascript File -->
+<script src="JS/main.js"></script>
+ <script>
+
+$(window).load(function(){
+
+  var portfolioIsotope = $('.portfolio-container').isotope({
+    itemSelector: '.portfolio-thumbnail',
+    layoutMode: 'fitRows'
+    });
+
+   $('#portfolio-flters li').on( 'click', function() {
+    $("#portfolio-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+
+    portfolioIsotope.isotope({ filter: $(this).data('filter') });
+  });
+
+})
+
+</script>
+    </div>
   <!--SERVICE-->
   <div id=service style="padding-top: 100px;">
     <div class="text-center">
@@ -366,7 +502,5 @@
       <h6 style="text-align: center; padding-bottom: 10px;"><b> Made by Phong Hoai Nguyen</b></h6>
       <p style="font-size: 75%; text-align: center; margin-bottom: 0px;"><b>© 2022 SONGFU - ALL RIGHTS RESERVED</b></p>
 </footer>
-</body>
-</html>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html> 
